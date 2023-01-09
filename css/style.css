@@ -1,0 +1,55 @@
+html,
+body,
+a{
+  padding: 0px;
+  margin: 0px;
+  font-family: Noto Sans KR,sans-serif;
+  background-color: #1b1b1b;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+a:hover, a:focus {
+  color: #fff;
+  text-decoration: none; 
+}
+
+.main {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-project{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  border: 2px solid #fff;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.text-project{
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+} 
+
+.img-project{
+  border-radius: 20px;
+  -webkit-mask-image: linear-gradient(to left, transparent 0%, black 100%);
+  width: 25%;
+}
+
+.text-project.sobre-mim {
+  justify-content: center;
+}
