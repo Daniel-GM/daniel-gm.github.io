@@ -10,16 +10,50 @@ a{
   color: #fff;
 }
 
+body{
+  margin-bottom: 20px;
+}
+
 a:hover, a:focus {
   color: #fff;
-  text-decoration: none; 
+  text-decoration: none;
+}
+
+.item-menu{
+  margin-left: 20px;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  padding: 20px;
+}
+
+.item-menu:hover{
+  color: red;
+}
+
+.titulo{
+  margin-top: 20px;
 }
 
 .main {
   display: flex;
-  margin-top: 20px;
   flex-direction: column;
   align-items: center;
+}
+
+.video{
+  margin-top: 10px;
+}
+
+.video iframe{
+  border: none;
+  width: 100%;
+  aspect-ratio: 16/9;
 }
 
 .card-project{
@@ -52,4 +86,21 @@ a:hover, a:focus {
 
 .text-project.sobre-mim {
   justify-content: center;
+}
+
+.card-project{
+  background-color: #161616; 
+}
+
+.whitelist{
+  border: 2px solid #ffcf55;
+  background-color: #161616;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.whitelist span{
+  font-size: 15px;
 }
