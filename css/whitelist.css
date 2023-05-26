@@ -1,0 +1,12 @@
+.whitelist{
+  background-color: var(--cor-primaria);
+  border: 2px solid var(--cor-alerta);
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  width: 30%;
+}
+
+.whitelist span{
+  font-size: 15px;
+}
